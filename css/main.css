@@ -1,0 +1,18 @@
+@import '../fonts/fonts.css';
+
+main {
+  background-color: red;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  & div {
+    background-color: green;
+  }
+
+  & .div {
+    background-color: yellow;
+  }
+}
+
+div {
+  height: 100px;
+}

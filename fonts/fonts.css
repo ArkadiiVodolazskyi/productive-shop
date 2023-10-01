@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('./Jost/Jost-Medium.eot');
+  src: local('Jost Medium'), local('./Jost/Jost-Medium'),
+    url('./Jost/Jost-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Jost/Jost-Medium.woff2') format('woff2'),
+    url('./Jost/Jost-Medium.woff') format('woff'),
+    url('./Jost/Jost-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./SourceSansPro/SourceSansPro-Regular.eot');
+  src: local('Source Sans Pro Regular'),
+    local('./SourceSansPro/SourceSansPro-Regular'),
+    url('./SourceSansPro/SourceSansPro-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('./SourceSansPro/SourceSansPro-Regular.woff2') format('woff2'),
+    url('./SourceSansPro/SourceSansPro-Regular.woff') format('woff'),
+    url('./SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./SourceSansPro/SourceSansPro-SemiBold.eot');
+  src: local('Source Sans Pro SemiBold'),
+    local('./SourceSansPro/SourceSansPro-SemiBold'),
+    url('./SourceSansPro/SourceSansPro-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('./SourceSansPro/SourceSansPro-SemiBold.woff2') format('woff2'),
+    url('./SourceSansPro/SourceSansPro-SemiBold.woff') format('woff'),
+    url('./SourceSansPro/SourceSansPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./SourceSansPro/SourceSansPro-Bold.eot');
+  src: local('Source Sans Pro Bold'),
+    local('./SourceSansPro/SourceSansPro-Bold'),
+    url('./SourceSansPro/SourceSansPro-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('./SourceSansPro/SourceSansPro-Bold.woff2') format('woff2'),
+    url('./SourceSansPro/SourceSansPro-Bold.woff') format('woff'),
+    url('./SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
