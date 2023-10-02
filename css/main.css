@@ -7,3 +7,5 @@
 
 @import './parts/header-main.css';
 @import './parts/overlay.css';
+
+@import './components/article-card.css';

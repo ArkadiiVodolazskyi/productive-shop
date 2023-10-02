@@ -1,0 +1,44 @@
+.article-card {
+  display: flex;
+  border-radius: var(--rd-primary);
+  overflow: hidden;
+
+  &[data-size='medium'] {
+    max-width: 300px;
+    flex-direction: column;
+    box-shadow: 8px 8px 40px 0px rgba(152, 152, 152, 0.2);
+
+    & .article-description {
+      padding: 12px 20px;
+    }
+  }
+
+  &[data-size='small'] {
+    gap: 16px;
+  }
+
+  & .article-thumbnail-wrapper {
+    overflow: hidden;
+
+    &:hover .article-thumbnail {
+      scale: 1.05;
+    }
+  }
+
+  & .article-thumbnail {
+    width: 100%;
+    object-fit: cover;
+    transition: scale 0.8s ease;
+  }
+
+  & .article-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  & .article-title {
+    font-size: initial;
+    font-weight: initial;
+  }
+}

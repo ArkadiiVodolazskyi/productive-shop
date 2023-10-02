@@ -40,7 +40,7 @@
   }
 }
 
-.hover-underline {
+[data-hover='underline-pseudo'] {
   position: relative;
   isolation: isolate;
   &::before {
@@ -60,7 +60,22 @@
   }
 }
 
+[data-hover='underline-default'] {
+  text-decoration-skip-ink: none;
+  text-underline-offset: -0.3ex;
+  text-decoration: underline solid var(--col-tsp) 0;
+  transition: text-decoration-color 0.2s ease-in;
+  text-decoration-thickness: 0.7ex;
+
+  &:hover {
+    text-decoration-color: var(--ac-primary);
+  }
+}
+
 .tag-link {
+  display: inline-block;
+  width: max-content;
+  max-width: 100%;
   background-color: var(--ac-secondary-bg);
   color: var(--ac-secondary);
   padding: 1px 4px;

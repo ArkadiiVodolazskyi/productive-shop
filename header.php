@@ -23,7 +23,7 @@
             <nav class="header-nav-main">
                 <ul class="header-nav-items">
                     <li class="header-nav-item">
-                        <button class="header-nav-btn hover-underline" data-js="toggle-megamenu">I need</button>
+                        <button class="header-nav-btn" data-hover="underline-pseudo" data-js="toggle-megamenu">I need</button>
                         <div class="header-nav-megamenu">
                             <div class="megamenu-block" data-megamenu-block="medium">
                                 <h5 class="megamenu-block-header" data-title="dashed">By workflow</h5>
@@ -32,7 +32,7 @@
                                     <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
                                     <div class="item-content">
                                         <a class="block-item-link" href="#">
-                                            <h6 class="item-title hover-underline" data-title="main">Uncover market and competitor insights</h6>
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
                                             <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
                                         </a>
                                         <ul class="link-items">
@@ -52,7 +52,7 @@
                                     <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
                                     <div class="item-content">
                                         <a href="#" class="block-item-link">
-                                            <h6 class="item-title hover-underline" data-title="main">For CMO</h6>
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
                                             <p class="item-description">A 360* digital enablement perspective</p>
                                         </a>
                                         <ul class="link-items">
@@ -72,7 +72,7 @@
                                     <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
                                     <div class="item-content">
                                         <a class="block-item-link" href="#">
-                                            <h6 class="item-title hover-underline" data-title="main">Uncover market and competitor insights</h6>
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
                                             <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
                                         </a>
                                         <ul class="link-items">
@@ -92,7 +92,7 @@
                                     <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
                                     <div class="item-content">
                                         <a href="#" class="block-item-link">
-                                            <h6 class="item-title hover-underline" data-title="main">For CMO</h6>
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
                                             <p class="item-description">A 360* digital enablement perspective</p>
                                         </a>
                                         <ul class="link-items">
@@ -112,7 +112,7 @@
                                     <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
                                     <div class="item-content">
                                         <a class="block-item-link" href="#">
-                                            <h6 class="item-title hover-underline" data-title="main">Uncover market and competitor insights</h6>
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
                                             <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
                                         </a>
                                         <ul class="link-items">
@@ -132,7 +132,7 @@
                                     <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
                                     <div class="item-content">
                                         <a href="#" class="block-item-link">
-                                            <h6 class="item-title hover-underline" data-title="main">For CMO</h6>
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
                                             <p class="item-description">A 360* digital enablement perspective</p>
                                         </a>
                                         <ul class="link-items">
@@ -165,13 +165,349 @@
                         </div>
                     </li>
                     <li class="header-nav-item">
-                        <button class="header-nav-btn hover-underline" data-js="toggle-megamenu">Expertise</button>
+                        <button class="header-nav-btn" data-hover="underline-pseudo" data-js="toggle-megamenu">Expertise</button>
+                        <div class="header-nav-megamenu">
+                            <div class="megamenu-block" data-megamenu-block="medium">
+                                <h5 class="megamenu-block-header" data-title="dashed">By workflow</h5>
+                                <h5 class="megamenu-block-header" data-title="dashed">By team</h5>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a href="#" class="block-item-link">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
+                                            <p class="item-description">A 360* digital enablement perspective</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Content Writing</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Website Design & Branding</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a href="#" class="block-item-link">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
+                                            <p class="item-description">A 360* digital enablement perspective</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Content Writing</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Website Design & Branding</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a href="#" class="block-item-link">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
+                                            <p class="item-description">A 360* digital enablement perspective</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Content Writing</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Website Design & Branding</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a href="#" class="block-item-link">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
+                                            <p class="item-description">A 360* digital enablement perspective</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Content Writing</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Website Design & Branding</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a href="#" class="block-item-link">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
+                                            <p class="item-description">A 360* digital enablement perspective</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Content Writing</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Website Design & Branding</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="megamenu-block" data-megamenu-block="small" style="background-color: #f9f8f8;">
+                                <h5 class="megamenu-block-header" data-title="dashed">Featured blog posts</h5>
+                                <article class="article-card" data-size="medium">
+                                    <a class="article-thumbnail-wrapper" href="#">
+                                        <img class="article-thumbnail" src="<?= IMG_DIR; ?>/images/How to export all types of files from Figma.png" />
+                                    </a>
+                                    <div class="article-description">
+                                        <a class="article-tag tag-link" href="#">Local SEO</a>
+                                        <a href="">
+                                            <h6 class="article-title" data-hover="underline-default">Women in leadership</h6>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="article-card" data-size="small">
+                                    <a class="article-thumbnail-wrapper" href="#">
+                                        <img class="article-thumbnail" src="<?= IMG_DIR; ?>/images/WordPress vs WebFlow.png" />
+                                    </a>
+                                    <div class="article-description">
+                                        <a class="article-tag tag-link" href="#">Web builds</a>
+                                        <a href="">
+                                            <h6 class="article-title" data-hover="underline-default">How to export all types of files from Figma</h6>
+                                        </a>
+                                    </div>
+                                </article>
+                                <article class="article-card" data-size="small">
+                                    <a class="article-thumbnail-wrapper" href="#">
+                                        <img class="article-thumbnail" src="<?= IMG_DIR; ?>/images/WordPress vs WebFlow.png" />
+                                    </a>
+                                    <div class="article-description">
+                                        <a class="article-tag tag-link" href="#">Advanced SEO</a>
+                                        <a href="">
+                                            <h6 class="article-title" data-hover="underline-default">International SEO | Implementation best...</h6>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
                     </li>
                     <li class="header-nav-item">
-                        <button class="header-nav-btn hover-underline" data-js="toggle-megamenu">Resources</button>
+                        <button class="header-nav-btn" data-hover="underline-pseudo" data-js="toggle-megamenu">Resources</button>
                     </li>
                     <li class="header-nav-item">
-                        <button class="header-nav-btn hover-underline" data-js="toggle-megamenu">Company</button>
+                        <button class="header-nav-btn" data-hover="underline-pseudo" data-js="toggle-megamenu" data-active="">Company</button>
+                        <div class="header-nav-megamenu">
+                            <div class="megamenu-block" data-megamenu-block="medium">
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a href="#" class="block-item-link">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">For CMO</h6>
+                                            <p class="item-description">A 360* digital enablement perspective</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Content Writing</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Website Design & Branding</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="megamenu-block-item">
+                                    <img class="item-icon" src="<?= IMG_DIR; ?>/icons/icon-Audit.svg" alt="">
+                                    <div class="item-content">
+                                        <a class="block-item-link" href="#">
+                                            <h6 class="item-title" data-hover="underline-default" data-title="main">Uncover market and competitor insights</h6>
+                                            <p class="item-description">Uncover and outpace your competitors in organic marketing.</p>
+                                        </a>
+                                        <ul class="link-items">
+                                            <li class="links-title">
+                                                Top services:
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Enterprise SEO</a>
+                                            </li>
+                                            <li class="link-item">
+                                                <a class="link tag-link" href="#">Local SEO</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="megamenu-block" data-megamenu-block="small" style="background-color: #f9f8f8;">
+                                <h6 class="item-title" data-title="main">Contact Us</h6>
+                                <ul class="social-items">
+                                    <li class="social-item">
+                                        <a class="social-link" href="#">
+                                            <div class="social-icon-wrapper">
+                                                <svg class="social-icon" width="16" height="16">
+                                                    <use href="<?= IMG_DIR; ?>/icons/icons.svg#linkedin"></use>
+                                                </svg>
+                                            </div>
+                                            <span class="social-name" data-hover="underline-default">
+                                                Linkedin
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a class="social-link" href="#">
+                                            <div class="social-icon-wrapper">
+                                                <svg class="social-icon" width="16" height="16">
+                                                    <use href="<?= IMG_DIR; ?>/icons/icons.svg#mail"></use>
+                                                </svg>
+                                            </div>
+                                            <span class="social-name" data-hover="underline-default">
+                                                Get In Touch
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <img class="megamenu-block-image" src="<?= IMG_DIR; ?>/images/Contact us.png" alt="">
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </nav>

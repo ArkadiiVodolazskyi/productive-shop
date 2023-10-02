@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
 
-  transition: opacity 0.15s ease-in;
+  /* transition: opacity 0.15s ease-in; */
   visibility: hidden;
   opacity: 0;
 }
