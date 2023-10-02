@@ -1,39 +1,45 @@
-@layer header-main, header-nav-main, header-nav-megamenu;
-@import '../components/header-nav-main.css' layer(header-nav-main);
-@import '../components/header-nav-megamenu.css' layer(header-nav-megamenu);
-@import '../components/megamenu-block.css' layer(megamenu-block);
+@import '../components/header-nav-main.css';
+@import '../components/header-nav-megamenu.css';
+@import '../components/megamenu-block.css';
 
-@layer header-main {
-  .header-main {
-    padding-block: 20px;
-    position: sticky;
-    z-index: 10;
-    top: 0;
+.header-main {
+  padding-block: 20px;
+  position: sticky;
+  z-index: 10;
+  top: 0;
 
-    & .wrapper {
-      --pad-inline: 30px;
-      background-color: var(--bg-secondary);
-      padding-inline: var(--pad-inline);
-      border-radius: var(--rd-primary);
-      display: grid;
-      align-items: center;
-      grid-template-columns: 250px 1fr 250px;
-      align-content: center;
-      position: relative;
+  & .wrapper {
+    --pad-inline: 30px;
+    background-color: var(--bg-secondary);
+    padding-inline: var(--pad-inline);
+    border-radius: var(--rd-primary);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 250px 1fr 250px;
+    align-content: center;
+    position: relative;
 
-      &::before {
-        content: '';
-        position: absolute;
-        z-index: 20;
-        inset: 100% var(--pad-inline) auto var(--pad-inline);
-        height: 1px;
-        background-color: var(--bg-secondary-darker-3);
-      }
+    &::before {
+      content: '';
+      position: absolute;
+      z-index: 20;
+      inset: 100% var(--pad-inline) auto var(--pad-inline);
+      height: 1px;
+      background-color: var(--bg-secondary-darker-3);
+      opacity: 0;
     }
+  }
 
-    & .wrapper:has(.header-nav-megamenu[data-is-visible]) {
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0;
+  & .header-nav-btn[data-active] + .header-nav-megamenu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  & .wrapper:has(.header-nav-btn[data-active]) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    &::before {
+      opacity: 1;
     }
   }
 }

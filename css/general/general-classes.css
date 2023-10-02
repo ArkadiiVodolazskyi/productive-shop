@@ -54,7 +54,7 @@
     background-color: var(--col-tsp);
   }
 
-  &:hover::before {
+  :is(&:hover, &[data-active])::before {
     max-height: 1ex;
     background-color: var(--ac-primary);
   }

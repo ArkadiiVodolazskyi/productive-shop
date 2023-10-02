@@ -7,12 +7,12 @@
 .header-nav-item {
   padding: 30px 16px;
 
-  &[data-has-megamenu] .header-nav-link::after {
+  &:has(.header-nav-megamenu) > .header-nav-btn::after {
     content: url(../icons/icon-chevron-down.svg);
   }
 }
 
-.header-nav-link {
+.header-nav-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;

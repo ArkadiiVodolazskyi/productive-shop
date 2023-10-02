@@ -11,10 +11,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
 
+  transition: opacity 0.15s ease-in;
   visibility: hidden;
   opacity: 0;
-  &[data-is-visible] {
-    visibility: visible;
-    opacity: 1;
-  }
 }

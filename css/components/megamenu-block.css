@@ -1,26 +1,38 @@
-@layers megamenu-block, megamenu-item;
-@import './megamenu-item.css' layer(megamenu-item);
+@import './megamenu-item.css';
 
-@layer megamenu-block {
-  .megamenu-block {
-    padding: 36px var(--pad-inline);
-    display: grid;
+.megamenu-block {
+  padding: 36px var(--pad-inline);
+  display: grid;
+  align-content: flex-start;
 
-    &[data-megamenu-block='medium'] {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 32px 36px;
+  &[data-megamenu-block='medium'] {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 36px;
+
+    & .megamenu-block-header {
+      margin-bottom: -8px;
     }
+  }
 
-    &[data-megamenu-block='small'] {
-      gap: 16px;
-    }
+  &[data-megamenu-block='small'] {
+    gap: 16px;
 
-    .megamenu-block-image {
-      position: absolute;
-      z-index: 0;
-      bottom: 0;
-      right: 0;
-      max-width: 100%;
+    & .megamenu-block-header {
+      margin-bottom: 8px;
     }
+  }
+
+  & .text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  & .megamenu-block-image {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
   }
 }

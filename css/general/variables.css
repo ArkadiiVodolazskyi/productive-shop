@@ -17,6 +17,8 @@
   --bg-secondary-darker-2: #f9f8f8;
   --bg-secondary-darker-3: #eae8e4;
 
+  --bg-overlay: rgba(0, 0, 0, 0.07);
+
   /* Fonts */
 
   --ff-primary: 'Source Sans Pro', sans-serif;

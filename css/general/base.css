@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 h1,
@@ -41,4 +42,6 @@ b {
   border-style: solid;
   font-weight: bold;
   padding: 10px 28px;
+  width: max-content;
+  max-width: 100%;
 }

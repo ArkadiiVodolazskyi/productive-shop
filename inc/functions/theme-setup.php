@@ -25,7 +25,7 @@ function register_scripts() {
 }
 
 function enchance_scripts($tag, $handle, $src) {
-    if ($handle === 'main') {
+    if ($handle === 'script-main') {
         return "<script type='module' defer src='" . esc_url($src) . "'></script>";
     }
 
