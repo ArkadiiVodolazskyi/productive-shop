@@ -1,4 +1,4 @@
-.title-dashed {
+[data-title='dashed'] {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -10,5 +10,64 @@
     width: 16px;
     height: 1px;
     background-color: var(--ac-secondary);
+  }
+}
+
+[data-title='main'] {
+  font-family: var(--ff-secondary);
+  color: var(--col-headline-2);
+  font-weight: 500;
+}
+
+[data-btn='no-bg'] {
+  display: block;
+  margin-left: auto;
+  color: var(--col-headline-2);
+  border-color: var(--ac-secondary);
+
+  &:hover {
+    background-color: var(--ac-secondary);
+    color: var(--col-secondary);
+  }
+}
+
+[data-btn='accent-main'] {
+  background-color: var(--ac-secondary);
+  color: var(--col-secondary);
+
+  &:hover {
+    background-color: var(--bg-primary);
+  }
+}
+
+.hover-underline {
+  position: relative;
+  isolation: isolate;
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: auto 0 0.3ex;
+    height: 1ex;
+    transition: max-height 0.2s ease, background-color 0.2s ease;
+    max-height: 0;
+    background-color: var(--col-tsp);
+  }
+
+  &:hover::before {
+    max-height: 1ex;
+    background-color: var(--ac-primary);
+  }
+}
+
+.tag-link {
+  background-color: var(--ac-secondary-bg);
+  color: var(--ac-secondary);
+  padding: 1px 4px;
+  border-radius: var(--rd-primary);
+
+  &:hover {
+    background-color: var(--ac-secondary);
+    color: var(--col-secondary);
   }
 }

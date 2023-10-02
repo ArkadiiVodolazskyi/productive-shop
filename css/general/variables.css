@@ -1,7 +1,10 @@
 :root {
   /* Colors */
 
+  --col-tsp: #00000000;
+
   --col-primary: #56525b;
+  --col-secondary: #ffffff;
   --col-headline-1: #2c2c2c;
   --col-headline-2: #112235;
 

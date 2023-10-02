@@ -1,0 +1,33 @@
+.megamenu-block-item {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+
+  & .item-icon {
+    flex-shrink: 0;
+    max-width: 32px;
+    max-height: 32px;
+    margin-top: 0.9ex;
+  }
+
+  & .item-title {
+    display: inline-block;
+  }
+
+  & .item-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & .item-description {
+    margin-top: 8px;
+  }
+
+  & .link-items {
+    margin-top: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+}

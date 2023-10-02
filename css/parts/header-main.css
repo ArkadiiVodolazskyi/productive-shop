@@ -1,8 +1,7 @@
 @layer header-main, header-nav-main, header-nav-megamenu;
 @import '../components/header-nav-main.css' layer(header-nav-main);
 @import '../components/header-nav-megamenu.css' layer(header-nav-megamenu);
-@import '../components/header-nav-megamenu-item.css'
-  layer(header-nav-megamenu-item);
+@import '../components/megamenu-block.css' layer(megamenu-block);
 
 @layer header-main {
   .header-main {
@@ -36,13 +35,5 @@
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
     }
-  }
-
-  .header-button-wrapper .header-cta-button {
-    display: block;
-    margin-left: auto;
-    color: var(--col-headline-2);
-    border-color: var(--ac-secondary);
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }

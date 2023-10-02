@@ -7,17 +7,15 @@
 .header-nav-item {
   padding: 30px 16px;
 
-  &[data-has-megamenu] {
-    .header-nav-link::after {
-      content: url(../icons/icon-chevron-down.svg);
-    }
+  &[data-has-megamenu] .header-nav-link::after {
+    content: url(../icons/icon-chevron-down.svg);
   }
 }
 
 .header-nav-link {
   display: inline-flex;
   align-items: center;
-  line-height: 1;
+  gap: 6px;
   font-size: var(--fs-headline);
   color: var(--col-headline-1);
 }

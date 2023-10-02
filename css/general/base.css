@@ -26,6 +26,10 @@ button {
   font: inherit;
 }
 
+b {
+  font-weight: 600;
+}
+
 .wrapper {
   max-width: 1300px;
   margin: 0 auto;

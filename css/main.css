@@ -1,3 +1,4 @@
+@layer demo, reset, base, general-classes, header-main;
 @import '../fonts/fonts.css';
 
 @import './general/variables.css';
