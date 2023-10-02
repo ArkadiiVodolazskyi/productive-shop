@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+
+  --col-primary: #56525b;
+  --col-headline-1: #2c2c2c;
+  --col-headline-2: #112235;
+
+  --ac-primary: #d1f960;
+  --ac-secondary: #4a49a3;
+  --ac-secondary-bg: #6f7bd41a;
+
+  --bg-primary: #112235;
+  --bg-secondary: #ffffff;
+  --bg-secondary-darker: #f9f8f8;
+
+  /* Fonts */
+
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Jost', sans-serif;
+
+  /* Sizes */
+
+  --fs-general: 14px;
+  --fs-headline: 18px;
+  --fs-tag: 12px;
+  --rd-primary: 5px;
+}

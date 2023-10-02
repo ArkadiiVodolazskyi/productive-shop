@@ -1,18 +1,10 @@
 @import '../fonts/fonts.css';
 
-main {
-  background-color: red;
-  font-family: 'Source Sans Pro', sans-serif;
+@import './general/variables.css';
+@import './general/reset.css';
+@import './general/base.css';
 
-  & div {
-    background-color: green;
-  }
+@import './parts/header.css';
 
-  & .div {
-    background-color: yellow;
-  }
-}
-
-div {
-  height: 100px;
-}
+@import './components/header-nav-main.css';
+@import './components/header-nav-megamenu.css';
