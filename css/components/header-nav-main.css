@@ -1,23 +1,23 @@
-@layer header-nav-main {
-  .header-nav-items {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.header-nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .header-nav-item {
-    font-size: var(--fs-headline);
-    padding: 30px 16px;
-    color: var(--col-headline-1);
+.header-nav-item {
+  padding: 30px 16px;
 
-    &.has-megamenu .header-nav-link::after {
+  &[data-has-megamenu] {
+    .header-nav-link::after {
       content: url(../icons/icon-chevron-down.svg);
     }
   }
+}
 
-  .header-nav-link {
-    display: inline-flex;
-    align-items: center;
-    line-height: 1;
-  }
+.header-nav-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  font-size: var(--fs-headline);
+  color: var(--col-headline-1);
 }

@@ -1,28 +1,40 @@
-@layer base {
-  html {
-    font-family: var(--ff-primary);
-    font-size: var(--fs-general);
-    color: var(--col-primary);
-    background-color: var(--bg-primary);
-  }
+html {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-general);
+  line-height: 1.5;
+  color: var(--col-primary);
+  background-color: var(--bg-primary);
+}
 
-  body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-  .wrapper {
-    max-width: 1300px;
-    margin: 0 auto;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--fs-headline);
+}
 
-  .btn {
-    border-radius: var(--rd-primary);
-    border-width: 1px;
-    border-style: solid;
-    font-weight: bold;
-    padding: 10px 28px;
-  }
+button {
+  font: inherit;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: var(--rd-primary);
+  border-width: 1px;
+  border-style: solid;
+  font-weight: bold;
+  padding: 10px 28px;
 }

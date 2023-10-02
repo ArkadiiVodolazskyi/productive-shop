@@ -1,10 +1,8 @@
 @import '../fonts/fonts.css';
 
 @import './general/variables.css';
-@import './general/reset.css';
-@import './general/base.css';
+@import './general/reset.css' layer(reset);
+@import './general/base.css' layer(base);
+@import './general/general-classes.css' layer(general-classes);
 
-@import './parts/header.css';
-
-@import './components/header-nav-main.css';
-@import './components/header-nav-megamenu.css';
+@import './parts/header-main.css' layer(header-main);

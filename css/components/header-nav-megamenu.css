@@ -1,4 +1,42 @@
-@layer header-nav-megamenu {
-  .header-nav-megamenu {
+.header-nav-megamenu {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  background-color: var(--bg-secondary);
+  inset: 100% 0 auto 0;
+  border-bottom-left-radius: var(--rd-primary);
+  border-bottom-right-radius: var(--rd-primary);
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+
+  visibility: hidden;
+  opacity: 0;
+  &[data-is-visible] {
+    visibility: visible;
+    opacity: 1;
   }
+}
+
+.megamenu-block {
+  padding-top: 36px;
+
+  &:nth-of-type(1) {
+    padding-left: var(--pad-inline);
+    padding-bottom: 36px;
+  }
+
+  &:nth-of-type(2) {
+    padding-bottom: 36px;
+  }
+
+  &:nth-of-type(3) {
+    background-color: var(--bg-secondary-darker-2);
+  }
+}
+
+.megamenu-block-header {
+  margin-bottom: 24px;
 }
