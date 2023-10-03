@@ -37,7 +37,7 @@ b {
   margin: 0 auto;
 }
 
-.btn {
+.button {
   border-radius: var(--rd-primary);
   border-width: 1px;
   border-style: solid;

@@ -51,7 +51,7 @@ $nav_items = get_field('nav_item', 'option');
             <div class="header-button-wrapper">
 
                 <?php if ($cta_button) { ?>
-                    <a class="btn" data-btn="no-bg" href="<?= $cta_button['url']; ?>">
+                    <a class="button" data-btn="no-bg" href="<?= $cta_button['url']; ?>">
                         <?= $cta_button['title']; ?>
                     </a>
                 <?php } ?>
