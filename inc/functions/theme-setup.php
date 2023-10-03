@@ -34,9 +34,6 @@ function enchance_scripts($tag, $handle, $src) {
 add_filter('script_loader_tag', 'enchance_scripts', 10, 3);
 
 function theme_setup() {
-    add_theme_support('menus');
-    register_nav_menu('header', 'Header');
-
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('post-thumbnails');

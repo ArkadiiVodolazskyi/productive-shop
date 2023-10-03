@@ -19,9 +19,8 @@
     flex-direction: column;
   }
 
-  & .block-item-link:hover .item-title::before {
-    max-height: 1ex;
-    background-color: var(--ac-primary);
+  & .block-item-link:hover .item-title {
+    text-decoration-color: var(--ac-primary);
   }
 
   & .item-description {
