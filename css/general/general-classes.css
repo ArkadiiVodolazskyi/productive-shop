@@ -86,3 +86,11 @@
     color: var(--col-secondary);
   }
 }
+
+[data-clamp-lines] {
+  display: -webkit-box;
+  -webkit-line-clamp: atrr(data-clamp-lines number, 2);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

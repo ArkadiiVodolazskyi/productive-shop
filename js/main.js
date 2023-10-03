@@ -28,6 +28,13 @@ document.addEventListener(
         });
       });
     })();
+
+    (() => {
+      window.addEventListener('scroll', () => {
+        overlay.toggleOffMegamenuButtons();
+        overlay.hideOverlay();
+      });
+    })();
   },
   true,
 );

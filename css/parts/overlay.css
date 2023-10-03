@@ -4,13 +4,14 @@
   inset: 0;
   background-color: var(--bg-overlay);
   cursor: pointer;
-  transition: backdrop-filter 0.2s linear, opacity 0.3s ease-in-out;
-  backdrop-filter: blur(10px);
+  transition: backdrop-filter 0.4s ease-out, opacity 0.4s ease-out;
+  backdrop-filter: blur(1px);
   opacity: 0;
   visibility: hidden;
 
   &[data-active] {
     opacity: 1;
     visibility: visible;
+    backdrop-filter: blur(10px);
   }
 }
